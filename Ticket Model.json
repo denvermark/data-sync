@@ -1,0 +1,216 @@
+{
+    "ExecutionSetId":  "A4493885-5BEA-44E0-B1F4-0B6E4C4372BC",
+    "ExecutionSetName":  "Ticket Model",
+    "DataLoads":  [
+                      {
+                          "DataLoadId":  "cd4fe841-66bd-4595-8f0a-18aa836d1191",
+                          "DataLoadName":  "dbo.DimArena",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.DimArena",
+                          "DestinationTableName":  "dbo.DimArena",
+                          "BusinessKeys":  "DimArenaId",
+                          "IsDeleteEnabled":  false,
+                          "UpdateField":  "UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "f8303c85-c6fa-4247-ba0c-8fd36894edc5",
+                          "DataLoadName":  "dbo.DimClassTM",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.DimClassTM",
+                          "DestinationTableName":  "dbo.DimClassTM",
+                          "BusinessKeys":  "DimClassTMId",
+                          "IsDeleteEnabled":  false,
+                          "UpdateField":  "ETL_UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "977486b4-4009-4f68-ad63-4e0f05e96c75",
+                          "DataLoadName":  "dbo.DimEvent",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.DimEvent",
+                          "DestinationTableName":  "dbo.DimEvent",
+                          "BusinessKeys":  "DimEventId",
+                          "IsDeleteEnabled":  false,
+                          "UpdateField":  "UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "8f79b0a5-c281-47ed-af63-576a2e943405",
+                          "DataLoadName":  "dbo.DimEventHeader",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.DimEventHeader",
+                          "DestinationTableName":  "dbo.DimEventHeader",
+                          "BusinessKeys":  "DimEventHeaderId",
+                          "IsDeleteEnabled":  false,
+                          "UpdateField":  "UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "eea9c151-f904-4b33-8f6f-86be1eea03ce",
+                          "DataLoadName":  "dbo.DimItem",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.DimItem",
+                          "DestinationTableName":  "dbo.DimItem",
+                          "BusinessKeys":  "DimItemId",
+                          "IsDeleteEnabled":  false,
+                          "UpdateField":  "UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "a8160eb1-e1e6-445a-9d66-42db127e59c3",
+                          "DataLoadName":  "dbo.DimLedger",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.DimLedger",
+                          "DestinationTableName":  "dbo.DimLedger",
+                          "BusinessKeys":  "DimLedgerId",
+                          "IsDeleteEnabled":  false,
+                          "UpdateField":  "ETL_UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "abc074ca-a289-41a6-aa3a-2ec0d1855cfd",
+                          "DataLoadName":  "dbo.DimPlan",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.DimPlan",
+                          "DestinationTableName":  "dbo.DimPlan",
+                          "BusinessKeys":  "DimPlanId",
+                          "IsDeleteEnabled":  false,
+                          "UpdateField":  "UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "2f9068ac-617e-4df1-8cc4-f84de3d68353",
+                          "DataLoadName":  "dbo.DimPlanType",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.DimPlanType",
+                          "DestinationTableName":  "dbo.DimPlanType",
+                          "BusinessKeys":  "DimPlanTypeId",
+                          "IsDeleteEnabled":  false,
+                          "UpdateField":  "UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "abf4b87e-e394-4bfc-9b5c-ce3bc89dd6b1",
+                          "DataLoadName":  "dbo.DimPriceCode",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.DimPriceCode",
+                          "DestinationTableName":  "dbo.DimPriceCode",
+                          "BusinessKeys":  "DimPriceCodeId",
+                          "IsDeleteEnabled":  false,
+                          "UpdateField":  "UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "3098c76e-05ab-48c7-9fa0-cbabf5332a85",
+                          "DataLoadName":  "dbo.DimPriceCodeMaster",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.DimPriceCodeMaster",
+                          "DestinationTableName":  "dbo.DimPriceCodeMaster",
+                          "BusinessKeys":  "DimPriceCodeMasterId",
+                          "IsDeleteEnabled":  false,
+                          "UpdateField":  "ETL_UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "7261ac8c-1379-4793-aab8-a55a4f59476a",
+                          "DataLoadName":  "dbo.DimPromo",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.DimPromo",
+                          "DestinationTableName":  "dbo.DimPromo",
+                          "BusinessKeys":  "DimPromoId",
+                          "IsDeleteEnabled":  false,
+                          "UpdateField":  "ETL_UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "0f5a2bf7-138f-4112-be9b-7ea03ae7b271",
+                          "DataLoadName":  "dbo.DimSalesCode",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.DimSalesCode",
+                          "DestinationTableName":  "dbo.DimSalesCode",
+                          "BusinessKeys":  "DimSalesCodeId",
+                          "IsDeleteEnabled":  false,
+                          "UpdateField":  "UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "7439c41a-24aa-4f8d-95d2-5de893375a2d",
+                          "DataLoadName":  "dbo.DimSeason",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.DimSeason",
+                          "DestinationTableName":  "dbo.DimSeason",
+                          "BusinessKeys":  "DimSeasonId",
+                          "IsDeleteEnabled":  false,
+                          "UpdateField":  "UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "99c9d0ed-6769-43bd-8a25-3c5ad5e3ee33",
+                          "DataLoadName":  "dbo.DimSeasonHeader",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.DimSeasonHeader",
+                          "DestinationTableName":  "dbo.DimSeasonHeader",
+                          "BusinessKeys":  "DimSeasonHeaderId",
+                          "IsDeleteEnabled":  true,
+                          "UpdateField":  "UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "f7637b6c-ac9b-4a93-8798-b0d89f51919a",
+                          "DataLoadName":  "dbo.DimSeat",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.DimSeat",
+                          "DestinationTableName":  "dbo.DimSeat",
+                          "BusinessKeys":  "DimSeatId",
+                          "IsDeleteEnabled":  true,
+                          "UpdateField":  "UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "4fd4192c-02aa-46a3-9550-f190962828bd",
+                          "DataLoadName":  "dbo.DimSeatType",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.DimSeatType",
+                          "DestinationTableName":  "dbo.DimSeatType",
+                          "BusinessKeys":  "DimSeatTypeId",
+                          "IsDeleteEnabled":  false,
+                          "UpdateField":  "UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "68f74689-b031-4e5f-b451-cadba77baadf",
+                          "DataLoadName":  "dbo.DimTicketClass",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.DimTicketClass",
+                          "DestinationTableName":  "dbo.DimTicketClass",
+                          "BusinessKeys":  "DimTicketClassId",
+                          "IsDeleteEnabled":  false,
+                          "UpdateField":  "UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "1a495534-5dc2-4393-b8a4-577da941e871",
+                          "DataLoadName":  "dbo.DimTicketType",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.DimTicketType",
+                          "DestinationTableName":  "dbo.DimTicketType",
+                          "BusinessKeys":  "DimTicketTypeId",
+                          "IsDeleteEnabled":  false,
+                          "UpdateField":  "UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "b72853b2-e49a-44d1-a85b-1e012f987d14",
+                          "DataLoadName":  "dbo.FactAttendance",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.FactAttendance",
+                          "DestinationTableName":  "dbo.FactAttendance",
+                          "BusinessKeys":  "FactAttendanceId",
+                          "IsDeleteEnabled":  false,
+                          "UpdateField":  "ETL_UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "c184e3dd-8923-4089-852e-41ae42ee0eea",
+                          "DataLoadName":  "dbo.FactInventory",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.FactInventory",
+                          "DestinationTableName":  "dbo.FactInventory",
+                          "BusinessKeys":  "FactInventoryId",
+                          "IsDeleteEnabled":  true,
+                          "UpdateField":  "ETL_UpdatedDate"
+                      },
+                      {
+                          "DataLoadId":  "6b43cdd3-f6f7-4759-a99b-4330efab8378",
+                          "DataLoadName":  "dbo.FactTicketSales",
+                          "IsEnabled":  true,
+                          "DataTableSourceObject":  "dbo.FactTicketSales",
+                          "DestinationTableName":  "dbo.FactTicketSales",
+                          "BusinessKeys":  "FactTicketSalesId",
+                          "IsDeleteEnabled":  true,
+                          "UpdateField":  "UpdatedDate"
+                      }
+                  ]
+}
